@@ -1,19 +1,20 @@
 <!doctype html>
 <html lang="en">
-  <head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+  <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title> 
+    <title> {{ block "title" . }}
     Josephine Snow
-     </title>
-     
+    {{end}} </title>
+    {{ with resources.Get "style.css" }} {{ with . | fingerprint
+    "sha256" }}
     <link
       rel="stylesheet"
-      href="/style.99353f656538c41c67a09ae1fc057acf080bfe8f28d84c97ccc849469dce7f5b.css"
-      integrity="sha256-mTU/ZWU4xBxnoJrh/AV6zwgL/o8o2EyXzMhJRp3Of1s="
+      href="{{ .RelPermalink }}"
+      integrity="{{ .Data.Integrity }}"
       crossorigin="anonymous"
     />
-     
+    {{ end }} {{ end }}
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -29,8 +30,6 @@
     <link rel="icon" href="/favicon.png" type="image/png" />
   </head>
   <body>
-    
-<main></main>
-
+    {{block "main" . }} {{end}}
   </body>
 </html>

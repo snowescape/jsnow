@@ -1,15 +1,57 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
 	<channel>
-		<title>My New Hugo Project</title>
-		<link>http://localhost:1313/</link>
-		<description>Recent content on My New Hugo Project</description>
+		<title></title>
+		<link>//localhost:1313/</link>
+		<description>Recent content on </description>
 		<generator>Hugo</generator>
-		<language>en-us</language>
+		<language>en</language>
 		
 		
 		
 		
-			<atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+			<atom:link href="//localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+			<item>
+				<title></title>
+				<link>//localhost:1313/404/</link>
+				<pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+				<guid>//localhost:1313/404/</guid>
+				<description></description>
+			</item>
+			<item>
+				<title></title>
+				<link>//localhost:1313/contact/</link>
+				<pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+				<guid>//localhost:1313/contact/</guid>
+				<description></description>
+			</item>
+			<item>
+				<title></title>
+				<link>//localhost:1313/education/boras/</link>
+				<pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+				<guid>//localhost:1313/education/boras/</guid>
+				<description>&lt;h3&gt;Programme in Digital Information Design and Development&lt;/h3&gt;&#xA;&lt;h4&gt;Högskolan i Borås&lt;/h4&gt;&#xA;&lt;h4&gt;2023-2026&lt;/h4&gt;&#xA;&lt;p&gt;&#xA;    Completed intensive coursework in web development, information architecture, user-centred design, interaction design, and UX. Gained practical experience building interactive applications using React, Bootstrap, and custom CSS. Successfully applied theoretical concepts to real-world design challenges before transitioning to new professional opportunities.&#xA;&lt;/p&gt;</description>
+			</item>
+			<item>
+				<title></title>
+				<link>//localhost:1313/education/huddersfield/</link>
+				<pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+				<guid>//localhost:1313/education/huddersfield/</guid>
+				<description></description>
+			</item>
+			<item>
+				<title></title>
+				<link>//localhost:1313/education/hundspann/</link>
+				<pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+				<guid>//localhost:1313/education/hundspann/</guid>
+				<description>&lt;h3&gt;Lärlingsutbildning i Hundspann&lt;/h3&gt;&#xA;&lt;h4&gt;Lapplands Lärcentra / Kiruna Husky&lt;/h4&gt;&#xA;&lt;h4&gt;2021-2022&lt;/h4&gt;&#xA;&lt;p&gt;&#xA;    Intensive hands-on training in a tourism-based small business. Developed crisis management skills, resilience, and a practical understanding of team dynamics and customer service in demanding, high-pressure conditions.&#xA;&lt;/p&gt;</description>
+			</item>
+			<item>
+				<title></title>
+				<link>//localhost:1313/education/leeds/</link>
+				<pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+				<guid>//localhost:1313/education/leeds/</guid>
+				<description></description>
+			</item>
 	</channel>
 </rss>

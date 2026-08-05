@@ -1,42 +1,27 @@
+---
+---
+
   <header>
     <div class="logo">
-        <img class="logo" src="/src/assets/logo.svg"/>
+        <img class="logo" src="/logo.svg"/>
     </div>
 <div class="banner">       
-    
-        <RouterLink to="/">Home</RouterLink>
-        <RouterLink to="/about">About</RouterLink>
-        <RouterLink to="/contact">Contact</RouterLink>
-        <RouterLink to="/blog">Blog</RouterLink>
-    </div>
+</div>
 <div class="menu">
     <details class="hamburger">
         <summary>
           <span role="presentation"> ☰ </span> <span class="sr-only">Menu</span>
         </summary>
-        <RouterLink to="/">Home</RouterLink>
-        <RouterLink to="/about">About</RouterLink>
-        <RouterLink to="/contact">Contact</RouterLink>
-        <RouterLink to="/blog">Blog</RouterLink>
+
       </details>
     </div>
 </header>
 
 <div class="education">
 <h2> Education</h2>
-<h3>Programme in Digital Information Design and Development</h3>
-<h4>Högskolan i Borås</h4>
-<h4>2023-2026</h4>
-<p>
-    Completed intensive coursework in web development, information architecture, user-centred design, interaction design, and UX. Gained practical experience building interactive applications using React, Bootstrap, and custom CSS. Successfully applied theoretical concepts to real-world design challenges before transitioning to new professional opportunities.
-</p>
 
-<h3>Lärlingsutbildning i Hundspann</h3>
-<h4>Lapplands Lärcentra / Kiruna Husky</h4>
-<h4>2021-2022</h4>
-<p>
-    Intensive hands-on training in a tourism-based small business. Developed crisis management skills, resilience, and a practical understanding of team dynamics and customer service in demanding, high-pressure conditions.
-</p>
+
+
 
 <h3>Svenska på Gymnasienivå</h3>
 <h4>Komvux Umeå</h4>
@@ -58,7 +43,7 @@
 <p>
     Built foundational knowledge in biomedical science, including genetics, molecular biology, biochemistry, pharmacology, and bioinformatics. Gained laboratory and data analysis experience applicable to both research and technology-driven roles.
 </p>
-
+</div>
 <div class="experience">
 <h2>Experience</h2>
     <h3>BOARD MEMBER & CREATIVE LEAD</h3>
@@ -123,5 +108,4 @@
       strong skills in empathy, negotiation, and calm communication under
       pressure.
     </p>
-</div>
 </div>
