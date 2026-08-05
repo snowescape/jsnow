@@ -12,18 +12,39 @@
 		
 			<atom:link href="//localhost:1313/education/index.xml" rel="self" type="application/rss+xml" />
 			<item>
-				<title></title>
+				<title>Bachelor&#39;s in Medical Genetics</title>
 				<link>//localhost:1313/education/huddersfield/</link>
 				<pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
 				<guid>//localhost:1313/education/huddersfield/</guid>
-				<description></description>
+				<description>&lt;h3&gt;Bachelor&#39;s in Medical Genetics&lt;/h3&gt;&#xA;&lt;h4&gt;University of Huddersfield, UK&lt;/h4&gt;&#xA;&lt;h4&gt;2005-2008&lt;/h4&gt;&#xA;&lt;p&gt;&#xA;    Built foundational knowledge in biomedical science, including genetics, molecular biology, biochemistry, pharmacology, and bioinformatics. Gained laboratory and data analysis experience applicable to both research and technology-driven roles.&#xA;&lt;/p&gt;</description>
 			</item>
 			<item>
-				<title></title>
+				<title>Lärlingsutbildning i Hundspann</title>
+				<link>//localhost:1313/education/hundspann/</link>
+				<pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+				<guid>//localhost:1313/education/hundspann/</guid>
+				<description>&lt;h3&gt;Lärlingsutbildning i Hundspann&lt;/h3&gt;&#xA;&lt;h4&gt;Lapplands Lärcentra / Kiruna Husky&lt;/h4&gt;&#xA;&lt;h4&gt;2021-2022&lt;/h4&gt;&#xA;&lt;p&gt;&#xA;    Intensive hands-on training in a tourism-based small business. Developed crisis management skills, resilience, and a practical understanding of team dynamics and customer service in demanding, high-pressure conditions.&#xA;&lt;/p&gt;</description>
+			</item>
+			<item>
+				<title>Masters in Bioscience</title>
 				<link>//localhost:1313/education/leeds/</link>
 				<pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
 				<guid>//localhost:1313/education/leeds/</guid>
-				<description></description>
+				<description>&lt;h3&gt;Masters in Bioscience&lt;/h3&gt;&#xA;&lt;h4&gt;University of Leeds, UK&lt;/h4&gt;&#xA;&lt;h4&gt;2009-2010&lt;/h4&gt;&#xA;&lt;p&gt;&#xA;    Specialised in advanced cellular imaging and data analysis. Developed a method to automate imaging using standard microscopy equipment, demonstrating initiative and technical innovation.&#xA;&lt;/p&gt;</description>
+			</item>
+			<item>
+				<title>Programme in Digital Information Design and Development</title>
+				<link>//localhost:1313/education/boras/</link>
+				<pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+				<guid>//localhost:1313/education/boras/</guid>
+				<description>&lt;h3&gt;Programme in Digital Information Design and Development&lt;/h3&gt;&#xA;&lt;h4&gt;Högskolan i Borås&lt;/h4&gt;&#xA;&lt;h4&gt;2023-2026&lt;/h4&gt;&#xA;&lt;p&gt;&#xA;  Completed intensive coursework in web development, information architecture, user-centred design, interaction design, and UX. Gained practical experience building interactive applications using React, Bootstrap, and custom CSS. Successfully applied theoretical concepts to real-world design challenges before transitioning to new professional opportunities.&#xA;&lt;/p&gt;</description>
+			</item>
+			<item>
+				<title>Svenska på Gymnasienivå</title>
+				<link>//localhost:1313/education/swedish/</link>
+				<pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+				<guid>//localhost:1313/education/swedish/</guid>
+				<description>&lt;h3&gt;Svenska på Gymnasienivå&lt;/h3&gt;&#xA;&lt;h4&gt;Komvux Umeå&lt;/h4&gt;&#xA;&lt;h4&gt;2015-2021&lt;/h4&gt;&#xA;&lt;p&gt;&#xA;    Completed high school-level courses in Swedish, mathematics, and physics, broadening academic eligibility and refreshing core STEM competencies.&#xA;&lt;/p&gt;</description>
 			</item>
 	</channel>
 </rss>

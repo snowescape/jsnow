@@ -23,26 +23,10 @@
 
 
 
-<h3>Svenska på Gymnasienivå</h3>
-<h4>Komvux Umeå</h4>
-<h4>2015-2021</h4>
-<p>
-    Completed high school-level courses in Swedish, mathematics, and physics, broadening academic eligibility and refreshing core STEM competencies.
-</p>
 
-<h3>Masters in Bioscience</h3>
-<h4>University of Leeds, UK</h4>
-<h4>2009-2010</h4>
-<p>
-    Specialised in advanced cellular imaging and data analysis. Developed a method to automate imaging using standard microscopy equipment, demonstrating initiative and technical innovation.
-</p>
 
-<h3>Bachelor's in Medical Genetics</h3>
-<h4>University of Huddersfield, UK</h4>
-<h4>2005-2008</h4>
-<p>
-    Built foundational knowledge in biomedical science, including genetics, molecular biology, biochemistry, pharmacology, and bioinformatics. Gained laboratory and data analysis experience applicable to both research and technology-driven roles.
-</p>
+
+
 </div>
 <div class="experience">
 <h2>Experience</h2>
