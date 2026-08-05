@@ -22,12 +22,7 @@
 
 
 {{define "main" }}
-
-<main>
-  <h1> {{ .Title }} </h1>
-  {{ .Content }}
-  {{ range .Resources.Match "experience/*.md" }}<h2>  {{ .Title }} </h2> {{end}}
-  {{ range .Resources.Match "education/*.md" }}<h2>  {{ .Title }} </h2> {{end}}
+<main>{{ .Content }}
 
 </main>
 {{end}}

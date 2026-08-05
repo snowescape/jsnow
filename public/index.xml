@@ -20,80 +20,24 @@
 			</item>
 			<item>
 				<title></title>
+				<link>//localhost:1313/blog/blogpostaug5/</link>
+				<pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+				<guid>//localhost:1313/blog/blogpostaug5/</guid>
+				<description></description>
+			</item>
+			<item>
+				<title></title>
 				<link>//localhost:1313/contact/</link>
 				<pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
 				<guid>//localhost:1313/contact/</guid>
 				<description></description>
 			</item>
 			<item>
-				<title>Bachelor&#39;s in Medical Genetics</title>
-				<link>//localhost:1313/education/huddersfield/</link>
+				<title>CV</title>
+				<link>//localhost:1313/cv/</link>
 				<pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-				<guid>//localhost:1313/education/huddersfield/</guid>
-				<description>&lt;h3&gt;Bachelor&#39;s in Medical Genetics&lt;/h3&gt;&#xA;&lt;h4&gt;University of Huddersfield, UK&lt;/h4&gt;&#xA;&lt;h4&gt;2005-2008&lt;/h4&gt;&#xA;&lt;p&gt;&#xA;    Built foundational knowledge in biomedical science, including genetics, molecular biology, biochemistry, pharmacology, and bioinformatics. Gained laboratory and data analysis experience applicable to both research and technology-driven roles.&#xA;&lt;/p&gt;</description>
-			</item>
-			<item>
-				<title>Board Member and Creative Lead</title>
-				<link>//localhost:1313/experience/hackrnspace/</link>
-				<pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-				<guid>//localhost:1313/experience/hackrnspace/</guid>
-				<description>&lt;pre&gt;&lt;code&gt;&amp;lt;h3&amp;gt;Board Member and Creative Lead&amp;lt;/h3&amp;gt;&#xA;&amp;lt;h4&amp;gt;HacKRNspace, Kiruna&amp;lt;/h4&amp;gt;&#xA;&amp;lt;h4&amp;gt;2024-Present&amp;lt;/h4&amp;gt;&#xA;&amp;lt;p&amp;gt;&#xA;  Active board member of Kiruna&#39;s local hackerspace, driving community&#xA;  engagement and digital literacy initiatives. Designed promotional&#xA;  materials and branding assets for outreach activities. Currently&#xA;  developing the organisation&#39;s website (forthcoming). Co-organised&#xA;  workshops introducing the public to open-source technologies including&#xA;  Linux and the Fediverse. Represented HacKRNspace at GirCon, showcasing a&#xA;  collaborative 3D-printed robot car project that demonstrated rapid&#xA;  prototyping and maker culture to attendees.&#xA;&amp;lt;/p&amp;gt;&#xA;&lt;/code&gt;&lt;/pre&gt;</description>
-			</item>
-			<item>
-				<title>Call Centre Operator</title>
-				<link>//localhost:1313/experience/lloyds/</link>
-				<pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-				<guid>//localhost:1313/experience/lloyds/</guid>
-				<description>&lt;h3&gt;Call Centre Operator&lt;/h3&gt;&#xA;    &lt;h4&gt;Lloyds TSB&lt;/h4&gt;&#xA;    &lt;h4&gt;2008&lt;/h4&gt;&#xA;    &lt;p&gt;&#xA;      Managed inbound and outbound communications in the credit card debt management department, advising customers on managing outstanding balances and providing tailored solutions to financial difficulties. Developed strong skills in empathy, negotiation, and calm communication under pressure.&#xA;    &lt;/p&gt;</description>
-			</item>
-			<item>
-				<title>Image Analyst</title>
-				<link>//localhost:1313/experience/nottingham/</link>
-				<pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-				<guid>//localhost:1313/experience/nottingham/</guid>
-				<description>&lt;pre&gt;&lt;code&gt;&amp;lt;h3&amp;gt;Image Analyst&amp;lt;/h3&amp;gt;&#xA;&amp;lt;h4&amp;gt;University of Nottingham, UK&amp;lt;/h4&amp;gt;&#xA;&amp;lt;h4&amp;gt;2010-2012&amp;lt;/h4&amp;gt;&#xA;&amp;lt;p&amp;gt;&#xA;  Supported high-content screening operations at the Institute of Cell&#xA;  Signalling, managing and maintaining imaging equipment to ensure&#xA;  consistent uptime for research teams. Handled basic server and database&#xA;  administration and provided daily IT support. Developed and refined image&#xA;  analysis methodologies that were adopted across multiple research&#xA;  environments, improving data processing consistency.&#xA;&amp;lt;/p&amp;gt;&#xA;&lt;/code&gt;&lt;/pre&gt;</description>
-			</item>
-			<item>
-				<title>Lärlingsutbildning i Hundspann</title>
-				<link>//localhost:1313/education/hundspann/</link>
-				<pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-				<guid>//localhost:1313/education/hundspann/</guid>
-				<description>&lt;h3&gt;Lärlingsutbildning i Hundspann&lt;/h3&gt;&#xA;&lt;h4&gt;Lapplands Lärcentra / Kiruna Husky&lt;/h4&gt;&#xA;&lt;h4&gt;2021-2022&lt;/h4&gt;&#xA;&lt;p&gt;&#xA;    Intensive hands-on training in a tourism-based small business. Developed crisis management skills, resilience, and a practical understanding of team dynamics and customer service in demanding, high-pressure conditions.&#xA;&lt;/p&gt;</description>
-			</item>
-			<item>
-				<title>Masters in Bioscience</title>
-				<link>//localhost:1313/education/leeds/</link>
-				<pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-				<guid>//localhost:1313/education/leeds/</guid>
-				<description>&lt;h3&gt;Masters in Bioscience&lt;/h3&gt;&#xA;&lt;h4&gt;University of Leeds, UK&lt;/h4&gt;&#xA;&lt;h4&gt;2009-2010&lt;/h4&gt;&#xA;&lt;p&gt;&#xA;    Specialised in advanced cellular imaging and data analysis. Developed a method to automate imaging using standard microscopy equipment, demonstrating initiative and technical innovation.&#xA;&lt;/p&gt;</description>
-			</item>
-			<item>
-				<title>PhD Researcher</title>
-				<link>//localhost:1313/experience/ucmm/</link>
-				<pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-				<guid>//localhost:1313/experience/ucmm/</guid>
-				<description>&lt;pre&gt;&lt;code&gt;&amp;lt;h3&amp;gt;PhD Researcher&amp;lt;/h3&amp;gt;&#xA;&amp;lt;h4&amp;gt;UCMM, Umeå Universitet&amp;lt;/h4&amp;gt;&#xA;&amp;lt;h4&amp;gt;2012-2015&amp;lt;/h4&amp;gt;&#xA;&amp;lt;p&amp;gt;&#xA;  Conducted research in 3D imaging within molecular medicine, developing&#xA;  advanced skills in image analysis, academic writing, and independent&#xA;  research methodology. Engaged in rigorous coursework and training that&#xA;  strengthened critical thinking, self-leadership, and the ability to manage&#xA;  complex, long-term projects. This period deepened a capacity for&#xA;  structured problem-solving and analytical precision that continues to&#xA;  inform all subsequent work.&#xA;&amp;lt;/p&amp;gt;&#xA;&lt;/code&gt;&lt;/pre&gt;</description>
-			</item>
-			<item>
-				<title>Programme in Digital Information Design and Development</title>
-				<link>//localhost:1313/education/boras/</link>
-				<pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-				<guid>//localhost:1313/education/boras/</guid>
-				<description>&lt;h3&gt;Programme in Digital Information Design and Development&lt;/h3&gt;&#xA;&lt;h4&gt;Högskolan i Borås&lt;/h4&gt;&#xA;&lt;h4&gt;2023-2026&lt;/h4&gt;&#xA;&lt;p&gt;&#xA;  Completed intensive coursework in web development, information architecture, user-centred design, interaction design, and UX. Gained practical experience building interactive applications using React, Bootstrap, and custom CSS. Successfully applied theoretical concepts to real-world design challenges before transitioning to new professional opportunities.&#xA;&lt;/p&gt;</description>
-			</item>
-			<item>
-				<title>Service Desk Agent</title>
-				<link>//localhost:1313/experience/dataductus/</link>
-				<pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-				<guid>//localhost:1313/experience/dataductus/</guid>
-				<description>&lt;h3&gt;Service Desk Agent&lt;/h3&gt;&#xA; &lt;h4&gt;Data Ductus (LKAB)&lt;/h4&gt;&#xA; &lt;h4&gt;2022-2023&lt;/h4&gt;&#xA; &lt;p&gt;&#xA;   Delivered first-line IT support for LKAB, combining technical troubleshooting with clear, empathetic communication to resolve issues efficiently across the organisation. Worked extensively with Azure applications, Windows administrative tools, Office 365, Group Policy management, and IT security protocols. Proactively pursued additional training in Windows computer management and Azure administration to expand capability beyond the core role&#xA; &lt;/p&gt;</description>
-			</item>
-			<item>
-				<title>Svenska på Gymnasienivå</title>
-				<link>//localhost:1313/education/swedish/</link>
-				<pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-				<guid>//localhost:1313/education/swedish/</guid>
-				<description>&lt;h3&gt;Svenska på Gymnasienivå&lt;/h3&gt;&#xA;&lt;h4&gt;Komvux Umeå&lt;/h4&gt;&#xA;&lt;h4&gt;2015-2021&lt;/h4&gt;&#xA;&lt;p&gt;&#xA;    Completed high school-level courses in Swedish, mathematics, and physics, broadening academic eligibility and refreshing core STEM competencies.&#xA;&lt;/p&gt;</description>
+				<guid>//localhost:1313/cv/</guid>
+				<description></description>
 			</item>
 	</channel>
 </rss>

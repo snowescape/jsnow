@@ -7,33 +7,15 @@
   </url><url>
     <loc>//localhost:1313/</loc>
   </url><url>
+    <loc>//localhost:1313/blog/blogpostaug5/</loc>
+  </url><url>
     <loc>//localhost:1313/contact/</loc>
   </url><url>
-    <loc>//localhost:1313/education/huddersfield/</loc>
-  </url><url>
-    <loc>//localhost:1313/experience/hackrnspace/</loc>
-  </url><url>
-    <loc>//localhost:1313/experience/lloyds/</loc>
+    <loc>//localhost:1313/blog/</loc>
   </url><url>
     <loc>//localhost:1313/categories/</loc>
   </url><url>
-    <loc>//localhost:1313/education/</loc>
-  </url><url>
-    <loc>//localhost:1313/experience/</loc>
-  </url><url>
-    <loc>//localhost:1313/experience/nottingham/</loc>
-  </url><url>
-    <loc>//localhost:1313/education/hundspann/</loc>
-  </url><url>
-    <loc>//localhost:1313/education/leeds/</loc>
-  </url><url>
-    <loc>//localhost:1313/experience/ucmm/</loc>
-  </url><url>
-    <loc>//localhost:1313/education/boras/</loc>
-  </url><url>
-    <loc>//localhost:1313/experience/dataductus/</loc>
-  </url><url>
-    <loc>//localhost:1313/education/swedish/</loc>
+    <loc>//localhost:1313/cv/</loc>
   </url><url>
     <loc>//localhost:1313/tags/</loc>
   </url>
