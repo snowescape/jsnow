@@ -1,0 +1,57 @@
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Caladea:ital,wght@0,400;0,700;1,400;1,700&family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Playball&display=swap" rel="stylesheet">
+body {
+  display: grid:;
+  min-height: 100vh;
+
+}
+.sr-only {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  white-space: nowrap;
+  border-width: 0;
+}
+
+.sr-only-focusable:focus,
+.sr-only-focusable:active {
+  height: auto;
+  width: auto;
+  margin: auto;
+  overflow: visible;
+  white-space: normal;
+}
+
+details.hamburger summary {
+    list-style: none;
+    color: #5BBFEA;
+    font-size: 10em;
+  }
+
+
+details.hamburger summary::-webkit-details-marker {
+    display: none;
+  }
+
+  .headerImg{
+    max-height: 100dvh;
+    float: right;
+    margin: -170px 0 0 0;
+    position: relative;
+  }
+  .menu {
+    position: absolute;
+    top: 0;
+    right: 0;
+    margin-top: -50px;
+  }
+h1 {
+  font-family: "Josefin Sans", sans-serif;
+}
+  .logo {
+    height: 100px;
+  }
