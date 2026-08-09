@@ -122,7 +122,6 @@ details.hamburger summary::-webkit-details-marker {
   font-size: 3em;
   text-decoration: none;
   -webkit-text-stroke: 2px black;
-  paint-order: stroke fill;
 }
 .menu li {
   list-style: none;
