@@ -144,9 +144,7 @@ details.hamburger summary::-webkit-details-marker {
   h2 {
     font-weight: 1000;
   }
-  p{
-    line-height: 1em;
-  }
+
 .logo {
   height: 100px;
 }
@@ -173,6 +171,7 @@ h1 {
   position: absolute;
   top: 20%;
   left: 5%;
+  line-height: 0.8em;
 }
 .headerImg{
   max-height: 100dvh;
@@ -187,7 +186,9 @@ h1 {
   bottom: 0;
   left: 0;
 }
-
+p{
+  line-height: 1em;
+}
   .logo {
     height: 100px;
   }

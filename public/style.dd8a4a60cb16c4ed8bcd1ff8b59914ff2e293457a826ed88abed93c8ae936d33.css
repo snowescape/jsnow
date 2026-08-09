@@ -60,7 +60,7 @@
 
 body {
   display: grid;
-  min-height: 100dvh;
+  min-height: 100vh;
   color: #5BBFEA;
   background: var(--color-background);
   transition:
@@ -132,21 +132,18 @@ details.hamburger summary::-webkit-details-marker {
 
   h1 {
     font-family: "Josefin Sans", sans-serif;
-    font-size: 6em;
+    font-size: 3em;
     text-wrap: pretty;
     text-wrap: wrap;
     grid-column: 1;
     grid-row: 1;
     align-self: start;
     justify-self: start;
-    line-height: 0.8em;
   }
   h2 {
     font-weight: 1000;
   }
-  p{
-    line-height: 1em;
-  }
+
 .logo {
   height: 100px;
 }
@@ -154,9 +151,8 @@ details.hamburger summary::-webkit-details-marker {
 .blurb {
   grid-column: span 2;
   -webkit-text-stroke: 2px black;
-  color: white;
+  color: #5BBFEA;
   paint-order: stroke fill;
-  padding: 10px;
 }
 
 @media (min-width: 1024px) {
@@ -187,7 +183,6 @@ h1 {
   bottom: 0;
   left: 0;
 }
-
   .logo {
     height: 100px;
   }
