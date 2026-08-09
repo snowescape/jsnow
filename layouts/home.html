@@ -1,0 +1,40 @@
+{{define "title"}}
+{{end}}
+{{ define "header"}}
+<header>
+  <div class="menu">
+    <details class="hamburger">
+      <summary>
+        <span role="presentation"> ☰ </span>
+        <span class="sr-only">Menu</span>
+      </summary>
+      <ul>
+        <li><a class="linkButton" href="https://jsnow.se/contact">Contact</a></li>
+        <li><a class="linkButton" href="https://jsnow.se/cv">CV</a></li>
+        <li><a class="linkButton" href="https://jsnow.se/blog">Blog</a></li>
+        <li><a class="linkButton" href="https://jsnow.se/portfolio">Portfolio</a></li>
+      </ul>
+    </details>
+  </div>
+
+  <div class="logo">
+    <img class="logo" src="/logo.svg"/>
+  </div>
+</header>
+{{end}}
+
+
+{{define "main" }}
+
+<main>
+  <h1> {{ .Title }} </h1>
+  {{ .Content }}
+  {{ range .Resources.Match "experience/*.md" }}
+  <h2>  {{ .Title }} </h2>
+  {{end}}
+  {{ range .Resources.Match "education/*.md" }}
+  <h2>  {{ .Title }} </h2>
+  {{end}}
+
+</main>
+{{end}}
