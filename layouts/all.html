@@ -23,17 +23,32 @@
 </header>
 {{end}}
 
+{{ define "navBar"}}
+<div class="navBar main">
+        <ul>
+          {{ range .Resources.Match "experience/*.md" }}
+                <li><a class="linkButton" href="#{{ .Title | anchorize }}">[{{ .Title }}]</a></li>
+            {{ end }}
+        </ul>
+        <ul>
+          {{ range .Resources.Match "education/*.md" }}
+                <li><a class="linkButton" href="#{{ .Title | anchorize }}">[{{ .Title }}]</a></li>
+            {{ end }}
+        </ul>
+</div>
+{{end}}
 
 {{define "main" }}
 
 <main>
   <h1> {{ .Title }} </h1>
-  {{ .Content }}
   {{ range .Resources.Match "experience/*.md" }}
-  <h2>  {{ .Title }} </h2>
+  <h2>  {{ .Title }}  </h2>
+    {{ .Content }}
   {{end}}
   {{ range .Resources.Match "education/*.md" }}
   <h2>  {{ .Title }} </h2>
+    {{ .Content }}
   {{end}}
 
 </main>

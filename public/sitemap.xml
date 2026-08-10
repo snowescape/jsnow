@@ -11,11 +11,23 @@
   </url><url>
     <loc>//localhost:1313/contact/</loc>
   </url><url>
+    <loc>//localhost:1313/portfolio/carro/</loc>
+  </url><url>
+    <loc>//localhost:1313/portfolio/emelie/</loc>
+  </url><url>
+    <loc>//localhost:1313/portfolio/hackrnspace/</loc>
+  </url><url>
+    <loc>//localhost:1313/portfolio/snowcapdigital/</loc>
+  </url><url>
+    <loc>//localhost:1313/portfolio/teachingapp/</loc>
+  </url><url>
     <loc>//localhost:1313/blog/</loc>
   </url><url>
     <loc>//localhost:1313/categories/</loc>
   </url><url>
     <loc>//localhost:1313/cv/</loc>
+  </url><url>
+    <loc>//localhost:1313/portfolio/</loc>
   </url><url>
     <loc>//localhost:1313/tags/</loc>
   </url>
