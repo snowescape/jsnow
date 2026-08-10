@@ -2,7 +2,7 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
 	<channel>
 		<title></title>
-		<link>//localhost:1313/</link>
+		<link>http://localhost:1313/</link>
 		<description>Recent content on </description>
 		<generator>Hugo</generator>
 		<language>en</language>
@@ -10,68 +10,40 @@
 		
 		
 		
-			<atom:link href="//localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+			<atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
 			<item>
 				<title></title>
-				<link>//localhost:1313/404/</link>
+				<link>http://localhost:1313/404/</link>
 				<pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-				<guid>//localhost:1313/404/</guid>
+				<guid>http://localhost:1313/404/</guid>
 				<description></description>
 			</item>
 			<item>
-				<title></title>
-				<link>//localhost:1313/blog/blogpostaug5/</link>
+				<title>Blog</title>
+				<link>http://localhost:1313/blog/</link>
 				<pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-				<guid>//localhost:1313/blog/blogpostaug5/</guid>
+				<guid>http://localhost:1313/blog/</guid>
 				<description></description>
 			</item>
 			<item>
-				<title></title>
-				<link>//localhost:1313/contact/</link>
+				<title>Contact</title>
+				<link>http://localhost:1313/contact/</link>
 				<pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-				<guid>//localhost:1313/contact/</guid>
-				<description></description>
-			</item>
-			<item>
-				<title></title>
-				<link>//localhost:1313/portfolio/carro/</link>
-				<pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-				<guid>//localhost:1313/portfolio/carro/</guid>
-				<description></description>
-			</item>
-			<item>
-				<title></title>
-				<link>//localhost:1313/portfolio/emelie/</link>
-				<pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-				<guid>//localhost:1313/portfolio/emelie/</guid>
-				<description></description>
-			</item>
-			<item>
-				<title></title>
-				<link>//localhost:1313/portfolio/hackrnspace/</link>
-				<pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-				<guid>//localhost:1313/portfolio/hackrnspace/</guid>
-				<description></description>
-			</item>
-			<item>
-				<title></title>
-				<link>//localhost:1313/portfolio/snowcapdigital/</link>
-				<pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-				<guid>//localhost:1313/portfolio/snowcapdigital/</guid>
-				<description></description>
-			</item>
-			<item>
-				<title></title>
-				<link>//localhost:1313/portfolio/teachingapp/</link>
-				<pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-				<guid>//localhost:1313/portfolio/teachingapp/</guid>
+				<guid>http://localhost:1313/contact/</guid>
 				<description></description>
 			</item>
 			<item>
 				<title>CV</title>
-				<link>//localhost:1313/cv/</link>
+				<link>http://localhost:1313/cv/</link>
 				<pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-				<guid>//localhost:1313/cv/</guid>
+				<guid>http://localhost:1313/cv/</guid>
+				<description></description>
+			</item>
+			<item>
+				<title>Portfolio</title>
+				<link>http://localhost:1313/portfolio/</link>
+				<pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+				<guid>http://localhost:1313/portfolio/</guid>
 				<description></description>
 			</item>
 	</channel>

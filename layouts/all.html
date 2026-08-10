@@ -8,17 +8,19 @@
         <span role="presentation"> ☰ </span>
         <span class="sr-only">Menu</span>
       </summary>
-      <ul>
-        <li><a class="linkButton" href="https://jsnow.se/contact">Contact</a></li>
-        <li><a class="linkButton" href="https://jsnow.se/cv">CV</a></li>
-        <li><a class="linkButton" href="https://jsnow.se/blog">Blog</a></li>
-        <li><a class="linkButton" href="https://jsnow.se/portfolio">Portfolio</a></li>
+        <ul>
+        {{ range ( slice  "contact" "cv" "blog" "portfolio" ) }}
+        {{ with $.Site.GetPage . }}
+        <li><a class="linkButton" href="{{ .RelPermalink }}"> {{ .Title }}</a></li>
+        {{ end }}
+      {{ end }}
       </ul>
+
     </details>
   </div>
 
   <div class="logo">
-    <img class="logo" src="/logo.svg"/>
+   <a href="{{.Site.Home.Permalink}}"> {{ readFile "static/logo.svg" | safeHTML }} </a>
   </div>
 </header>
 {{end}}

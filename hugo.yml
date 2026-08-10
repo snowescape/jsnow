@@ -1,3 +1,4 @@
+baseurl: "https://jsnow.se/"
 markup:
   goldmark:
     renderer:
