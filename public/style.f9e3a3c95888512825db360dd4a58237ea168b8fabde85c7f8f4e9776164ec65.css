@@ -73,9 +73,10 @@ body {
 }
 
 .menu {
-  position: sticky;
+  position: absolute;
   top: 0;
   right: 0;
+  margin-top: -50px;
 }
 details{
   position: absolute;
@@ -226,7 +227,7 @@ p {
 }
 
 .menu {
-  position: sticky;
+  position: fixed;   /* Use fixed instead of absolute for sticky menu */
   top: 20px;
   right: 20px;
 }

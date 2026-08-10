@@ -73,7 +73,7 @@ body {
 }
 
 .menu {
-  position: sticky;
+  position: fixed;
   top: 0;
   right: 0;
 }
@@ -226,7 +226,7 @@ p {
 }
 
 .menu {
-  position: sticky;
+  position: fixed;
   top: 20px;
   right: 20px;
 }

@@ -73,9 +73,10 @@ body {
 }
 
 .menu {
-  position: sticky;
+  position: absolute;
   top: 0;
   right: 0;
+  margin-top: -50px;
 }
 details{
   position: absolute;
@@ -107,7 +108,7 @@ details.hamburger summary {
     color: #5BBFEA;
     font-size: 10em;
     text-align: right;
-    line-height: 0.8em;
+    line-height: 5em;
   }
 
 
@@ -226,7 +227,7 @@ p {
 }
 
 .menu {
-  position: sticky;
+  position: fixed;   /* Use fixed instead of absolute for sticky menu */
   top: 20px;
   right: 20px;
 }

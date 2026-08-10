@@ -33,6 +33,33 @@
     <link rel="icon" href="/favicon.png" type="image/png" />
   </head>
   <body>
+
+
+      <div class="menu">
+        <details class="hamburger">
+          <summary>
+            <span role="presentation"> ☰ </span>
+            <span class="sr-only">Menu</span>
+          </summary>
+            <ul>
+            {{ range ( slice "contact" "cv" "blog" "portfolio" ) }}
+            {{ with $.Site.GetPage . }}
+            <li><a class="linkButton" href="{{ .RelPermalink }}"> {{ .Title }}</a></li>
+            {{ end }}
+          {{ end }}
+          </ul>
+
+        </details>
+      </div>
+
+      <div class="logo">
+       <a class="logoImg"  href="{{.Site.Home.Permalink}}">
+         <span class="logoImg">
+         {{ readFile "static/logo.svg" | safeHTML }}
+         </span>
+       </a>
+      </div>
+
     {{block "header" . }} {{end}}
     {{block "main" . }} {{end}}
   </body>
