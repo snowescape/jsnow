@@ -1,14 +1,11 @@
-{{define "title"}}
-{{end}}
+{{ define "title" }}
+{{ end }}
 
+{{ define "main" }}
 
+  <main>
+    <h1>{{ .Title }}</h1>
+    {{ .Content }}
 
-{{define "main" }}
-
-<main>
-  <h1> {{ .Title }} </h1>
-  {{ .Content }}
-
-
-</main>
-{{end}}
+  </main>
+{{ end }}

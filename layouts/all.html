@@ -1,32 +1,36 @@
-{{define "title"}}
-{{end}}
-{{ define "header"}}
-<header>
-  <div class="menu">
-    <details class="hamburger">
-      <summary>
-        <span role="presentation"> ☰ </span>
-        <span class="sr-only">Menu</span>
-      </summary>
+{{ define "title" }}
+{{ end }}
+{{ define "header" }}
+  <header>
+    <div class="menu">
+      <details class="hamburger">
+        <summary>
+          <span role="presentation"> ☰ </span>
+          <span class="sr-only">Menu</span>
+        </summary>
         <ul>
-        {{ range ( slice  "contact" "cv" "blog" "portfolio" ) }}
-        {{ with $.Site.GetPage . }}
-        <li><a class="linkButton" href="{{ .RelPermalink }}"> {{ .Title }}</a></li>
-        {{ end }}
-      {{ end }}
-      </ul>
+          {{ range ( slice  "contact" "cv" "blog" "portfolio" ) }}
+            {{ with $.Site.GetPage . }}
+              <li>
+                <a class="linkButton" href="{{ .RelPermalink }}">
+                  {{ .Title }}</a
+                >
+              </li>
+            {{ end }}
+          {{ end }}
+        </ul>
+      </details>
+    </div>
 
-    </details>
-  </div>
-
-  <div class="logo">
-   <a class="logoImg" href="{{.Site.Home.Permalink}}">
-     {{ readFile "static/logo.svg" | safeHTML }} </a>
-  </div>
-</header>
-{{end}}
-{{define "main"}}
-<main>
-  <div class="content">{{ .Content }}</div>
-</main>
-{{end}}
+    <div class="logo">
+      <a class="logoImg" href="{{ .Site.Home.Permalink }}">
+        {{ readFile "static/logo.svg" | safeHTML }}
+      </a>
+    </div>
+  </header>
+{{ end }}
+{{ define "main" }}
+  <main>
+    <div class="content">{{ .Content }}</div>
+  </main>
+{{ end }}

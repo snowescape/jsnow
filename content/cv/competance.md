@@ -2,6 +2,7 @@
 title: Technical Competance
 weight: 12
 ---
+
 <ul>
  <li> React </li>
  <li>  Vue.js</li>

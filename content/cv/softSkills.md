@@ -2,6 +2,7 @@
 title: Soft Skills
 weight: 13
 ---
+
 <ul>
  <li> Negotiation </li>
  <li>  Communication</li>

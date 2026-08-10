@@ -3,64 +3,69 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title> {{ block "title" . }}
-    Josephine Snow
-    {{end}} </title>
-    {{ with resources.Get "style.css" }} {{ with . | fingerprint
-    "sha256" }}
-    <link
-      rel="stylesheet"
-      href="{{ .RelPermalink }}"
-      integrity="{{ .Data.Integrity }}"
-      crossorigin="anonymous"
-    />
-    {{ end }} {{ end }}
+    <title>
+      {{ block "title" . }}
+        Josephine Snow
+      {{ end }}
+    </title>
+    {{ with resources.Get "style.css" }}
+      {{ with . | fingerprint
+        "sha256"
+      }}
+        <link
+          rel="stylesheet"
+          href="{{ .RelPermalink }}"
+          integrity="{{ .Data.Integrity }}"
+          crossorigin="anonymous" />
+      {{ end }}
+    {{ end }}
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
       href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&display=swap"
-      rel="stylesheet"
-    />
+      rel="stylesheet" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
       href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
-      rel="stylesheet"
-    />
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Caladea:ital,wght@0,400;0,700;1,400;1,700&family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Playball&display=swap" rel="stylesheet">
+      rel="stylesheet" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Caladea:ital,wght@0,400;0,700;1,400;1,700&family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Playball&display=swap"
+      rel="stylesheet" />
     <link rel="icon" href="/favicon.png" type="image/png" />
   </head>
   <body>
-
-
-      <div class="menu">
-        <details class="hamburger">
-          <summary>
-            <span role="presentation"> ☰ </span>
-            <span class="sr-only">Menu</span>
-          </summary>
-            <ul>
-            {{ range ( slice "contact" "cv" "blog" "portfolio" ) }}
+    <div class="menu">
+      <details class="hamburger">
+        <summary>
+          <span role="presentation"> ☰ </span>
+          <span class="sr-only">Menu</span>
+        </summary>
+        <ul>
+          {{ range ( slice "contact" "cv" "blog" "portfolio" ) }}
             {{ with $.Site.GetPage . }}
-            <li><a class="linkButton" href="{{ .RelPermalink }}"> {{ .Title }}</a></li>
+              <li>
+                <a class="linkButton" href="{{ .RelPermalink }}">
+                  {{ .Title }}</a
+                >
+              </li>
             {{ end }}
           {{ end }}
-          </ul>
+        </ul>
+      </details>
+    </div>
 
-        </details>
-      </div>
+    <div class="logo">
+      <a class="logoImg" href="{{ .Site.Home.Permalink }}">
+        <span class="logoImg">
+          {{ readFile "static/logo.svg" | safeHTML }}
+        </span>
+      </a>
+    </div>
 
-      <div class="logo">
-       <a class="logoImg"  href="{{.Site.Home.Permalink}}">
-         <span class="logoImg">
-         {{ readFile "static/logo.svg" | safeHTML }}
-         </span>
-       </a>
-      </div>
-
-    {{block "header" . }} {{end}}
-    {{block "main" . }} {{end}}
+    {{ block "header" . }}{{ end }}
+    {{ block "main" . }}{{ end }}
   </body>
 </html>

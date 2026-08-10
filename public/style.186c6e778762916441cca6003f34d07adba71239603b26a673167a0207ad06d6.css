@@ -61,14 +61,13 @@
 body {
   display: grid;
   min-height: 100dvh;
-  color: #5BBFEA;
+  color: #5bbfea;
   background: var(--color-background);
   transition:
     color 0.5s,
     background-color 0.5s;
   line-height: 1.6;
-  font-family:
- "Josefin Sans", sans-serif;
+  font-family: "Josefin Sans", sans-serif;
   font-size: 15px;
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
@@ -102,21 +101,20 @@ body {
 }
 
 details.hamburger summary {
-    list-style: none;
-    color: #5BBFEA;
-    font-size: 10em;
-  }
-
+  list-style: none;
+  color: #5bbfea;
+  font-size: 10em;
+}
 
 details.hamburger summary::-webkit-details-marker {
-    display: none;
-  }
+  display: none;
+}
 
-  details {
-    position: absolute;
-  }
+details {
+  position: absolute;
+}
 .linkButton {
-  color: #5BBFEA;
+  color: #5bbfea;
   font-size: 3em;
   text-decoration: none;
 }
@@ -124,50 +122,49 @@ details.hamburger summary::-webkit-details-marker {
   list-style: none;
 }
 
-.menu ul{
+.menu ul {
   background-color: var(--color-background);
   padding: 1em;
 }
 a:hover {
   color: white;
 }
-  .hero {
-    grid-template-columns: 1fr 1fr;
-    height: 100%;
-    width: 100%;
-  }
+.hero {
+  grid-template-columns: 1fr 1fr;
+  height: 100%;
+  width: 100%;
+}
 
+.headerImg {
+  max-width: 100dvw;
+  margin: -100px 0 0 0;
+  object-fit: cover;
+  grid-column: 2;
+  grid-row: 1;
+  align-self: end;
+  justify-self: end;
+  pointer-events: none;
+}
 
-  .headerImg{
-    max-width: 100dvw;
-    margin: -100px 0 0 0;
-    object-fit: cover;
-    grid-column: 2;
-    grid-row: 1;
-    align-self: end;
-    justify-self: end;
-    pointer-events: none;
-  }
-
-  h1 {
-    font-family: "Josefin Sans", sans-serif;
-    font-size: 6em;
-    text-wrap: pretty;
-    text-wrap: wrap;
-    grid-column: 1;
-    grid-row: 1;
-    align-self: start;
-    justify-self: start;
-    line-height: 0.8em;
-    margin-top: 20px;
-    margin-left: 20px;
-  }
-  h2 {
-    font-weight: 1000;
-  }
-  p{
-    line-height: 1em;
-  }
+h1 {
+  font-family: "Josefin Sans", sans-serif;
+  font-size: 6em;
+  text-wrap: pretty;
+  text-wrap: wrap;
+  grid-column: 1;
+  grid-row: 1;
+  align-self: start;
+  justify-self: start;
+  line-height: 0.8em;
+  margin-top: 20px;
+  margin-left: 20px;
+}
+h2 {
+  font-weight: 1000;
+}
+p {
+  line-height: 1em;
+}
 .logo {
   height: 100px;
 }
@@ -181,33 +178,33 @@ a:hover {
 }
 
 @media (min-width: 1024px) {
-.hero {
-  position: relative;
-  height: 100dvh;
-  width: 100dvw;
-}
+  .hero {
+    position: relative;
+    height: 100dvh;
+    width: 100dvw;
+  }
 
-h1 {
-  font-family: "Josefin Sans", sans-serif;
-  font-size: 6em;
-  text-wrap: pretty;
-  position: absolute;
-  top: 20%;
-  left: 5%;
-}
-.headerImg{
-  max-height: 100dvh;
-  float: right;
-  margin: -100px 0 0 0;
-  position: relative;
-  object-fit: cover;
-}
+  h1 {
+    font-family: "Josefin Sans", sans-serif;
+    font-size: 6em;
+    text-wrap: pretty;
+    position: absolute;
+    top: 20%;
+    left: 5%;
+  }
+  .headerImg {
+    max-height: 100dvh;
+    float: right;
+    margin: -100px 0 0 0;
+    position: relative;
+    object-fit: cover;
+  }
 
-.blurb {
-  position: absolute;
-  bottom: 0;
-  left: 0;
-}
+  .blurb {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+  }
 
   .logo {
     height: 100px;

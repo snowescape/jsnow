@@ -66,8 +66,7 @@ body {
     color 0.5s,
     background-color 0.5s;
   line-height: 1.6;
-  font-family:
- "Josefin Sans", sans-serif;
+  font-family: "Josefin Sans", sans-serif;
   font-size: 15px;
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
@@ -94,19 +93,19 @@ body {
 }
 
 details.hamburger summary {
-    list-style: none;
-    align-self: right;
-    color: #5BBFEA;
-  }
+  list-style: none;
+  align-self: right;
+  color: #5bbfea;
+}
 
 details.hamburger summary::-webkit-details-marker {
-    display: none;
-  }
+  display: none;
+}
 
-  .headerImg{
-    max-height: 100dvh;
-  }
+.headerImg {
+  max-height: 100dvh;
+}
 
-  .logo {
-    height: 40px;
-  }
+.logo {
+  height: 40px;
+}

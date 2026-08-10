@@ -1,7 +1,7 @@
 ---
 ---
-<div class=hero>
 
+<div class=hero>
 
   <h1>Josephine </br> Snow</h1>
   <img class="headerImg" src="./josthinking.webp" alt="A woman in a wool dress with blue hair and purple glasses in a thoughtful stance">
