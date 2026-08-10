@@ -9,7 +9,7 @@
         <span class="sr-only">Menu</span>
       </summary>
         <ul>
-        {{ range ( slice  "contact" "cv" "blog" "portfolio" ) }}
+        {{ range ( slice "contact" "cv" "blog" "portfolio" ) }}
         {{ with $.Site.GetPage . }}
         <li><a class="linkButton" href="{{ .RelPermalink }}"> {{ .Title }}</a></li>
         {{ end }}
