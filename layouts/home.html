@@ -20,7 +20,11 @@
   </div>
 
   <div class="logo">
-   <a href="{{.Site.Home.Permalink}}"> {{ readFile "static/logo.svg" | safeHTML }} </a>
+   <a class="logoImg"  href="{{.Site.Home.Permalink}}">
+     <span class="logoImg">
+     {{ readFile "static/logo.svg" | safeHTML }}
+     </span>
+   </a>
   </div>
 </header>
 {{end}}
@@ -31,12 +35,7 @@
 <main>
   <h1> {{ .Title }} </h1>
   {{ .Content }}
-  {{ range .Resources.Match "experience/*.md" }}
-  <h2>  {{ .Title }} </h2>
-  {{end}}
-  {{ range .Resources.Match "education/*.md" }}
-  <h2>  {{ .Title }} </h2>
-  {{end}}
+
 
 </main>
 {{end}}

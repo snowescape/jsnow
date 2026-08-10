@@ -201,58 +201,9 @@ a:hover {
   paint-order: stroke fill;
   text-wrap: pretty;
   padding: 10px;
-  margin: 300px 40px 0px 40px;
+  margin: 100px;
 }
 
-@media (min-width: 1024px) {
-.hero {
-  position: relative;
-  height: 100dvh;
-  width: 100dvw;
-}
-
-h1 {
-  font-family: "Josefin Sans", sans-serif;
-  font-size: 10em;
-  text-wrap: pretty;
-  position: absolute;
-  top: 20%;
-  left: 5%;
-  margin-top: 200px;
-}
-h2 {
-  font-size: 4em;
-}
-
-p{
-  font-size: 3em;
-}
-.blurb {
-  margin: 40px, 200px;
-}
-
-.logo svg {
-  height: 400px;
-  width: 400px;
-}
-.headerImg{
-  max-height: 100dvh;
-  float: right;
-  margin: -100px 0 0 0;
-  position: relative;
-  object-fit: cover;
-}
-
-.blurb {
-  position: absolute;
-  bottom: 0;
-  left: 0;
-}
-
-  .logo {
-    height: 100px;
-  }
-}
 @media (min-width: 1024px) {
 .hero {
   position: relative;
