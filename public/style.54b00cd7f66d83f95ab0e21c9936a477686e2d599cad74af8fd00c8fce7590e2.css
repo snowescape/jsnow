@@ -180,12 +180,10 @@ a:hover {
   }
   h2 {
     font-weight: 1000;
-    font-size: 2em;
   }
 
   p {
     line-height: 1em;
-    font-size: 2em;
   }
 
 .logo svg {
@@ -203,7 +201,7 @@ a:hover {
   paint-order: stroke fill;
   text-wrap: pretty;
   padding: 10px;
-  margin: 0px 10px 0px 10px;
+  margin: 100px 40px 0px 40px;
 }
 
 @media (min-width: 1024px) {

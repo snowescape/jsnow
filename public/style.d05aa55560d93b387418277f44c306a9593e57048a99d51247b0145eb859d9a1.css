@@ -203,7 +203,7 @@ a:hover {
   paint-order: stroke fill;
   text-wrap: pretty;
   padding: 10px;
-  margin: 0px 10px 0px 10px;
+  margin: 0px 40px 0px 40px;
 }
 
 @media (min-width: 1024px) {
