@@ -225,7 +225,7 @@ p {
   paint-order: stroke fill;
 }
 .portfolioPage {
-  margin-top: 100px;
+  margin-top: 90px;
 }
 
 @media (min-width: 1024px) {

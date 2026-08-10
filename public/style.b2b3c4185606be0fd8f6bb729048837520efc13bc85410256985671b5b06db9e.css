@@ -190,7 +190,7 @@ p {
 }
 
 .logo {
-  height: 180px;
+  height: 100px;
 }
 
 .blurb {
@@ -219,13 +219,10 @@ p {
 }
 .caseStudyButton {
   color: #5bbfea;
-  font-size: 3em;
+  font-size: 4em;
   text-decoration: none;
   -webkit-text-stroke: 2px black;
   paint-order: stroke fill;
-}
-.portfolioPage {
-  margin-top: 100px;
 }
 
 @media (min-width: 1024px) {

@@ -224,8 +224,8 @@ p {
   -webkit-text-stroke: 2px black;
   paint-order: stroke fill;
 }
-.portfolioPage {
-  margin-top: 100px;
+.portfolio {
+  margin-top: 50px;
 }
 
 @media (min-width: 1024px) {

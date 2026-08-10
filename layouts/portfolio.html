@@ -1,0 +1,29 @@
+{{ define "title" }}
+{{ end }}
+
+{{ define "main" }}
+  <main>
+    <h1 class="headerTitle">Portfolio</h1>
+    <p>
+      Here I am presenting the websites I have built recently. Most of these I
+      have built for fun purposes and they are a hobby rather than for work, and
+      thus are rather simple with limited scope. My design process therefore is
+      fairly straightforward. I enjoy developing sites for the joy of figuring
+      out how it works. Most of them are built in Hugo, but I have done some in
+      React and Vue. Please enjoy!
+    </p>
+    <div class="portfolio">
+      <div class="content card sr-only">
+        <h1>{{ .Title }}</h1>
+        {{ .Content }}
+      </div>
+      {{ range .Resources.ByType "page" }}
+        <div
+          class="content portfolioPage subpage"
+          id="{{ .Title | anchorize }}">
+          {{ .Content }}
+        </div>
+      {{ end }}
+    </div>
+  </main>
+{{ end }}

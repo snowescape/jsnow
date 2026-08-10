@@ -3,6 +3,11 @@
 
 {{ define "main" }}
   <main>
-    <div class="content">{{ .Content }}</div>
+    {{ range .Resources.ByType "page" }}
+      <div class="content card subpage" id="{{ .Title | anchorize }}">
+        <h2>{{ .Title }}</h2>
+        {{ .Content }}
+      </div>
+    {{ end }}
   </main>
 {{ end }}
