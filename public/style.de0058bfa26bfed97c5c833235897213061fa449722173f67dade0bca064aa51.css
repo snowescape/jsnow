@@ -150,7 +150,8 @@ a:hover {
   object-fit: cover;
   grid-column: 2;
   grid-row: 1;
-  float: right;
+  align-self: end;
+  justify-self: end;
   pointer-events: none;
 }
 
@@ -201,7 +202,6 @@ p {
   text-wrap: pretty;
   padding: 20px;
   max-width: 100%;
-  clear: right;
 }
 
 .cardBlock {
@@ -228,9 +228,6 @@ p {
   position: fixed;   /* Use fixed instead of absolute for sticky menu */
   top: 20px;
   right: 20px;
-}
-.blurb {
-  clear: none;
 }
 
 h1 {
@@ -268,6 +265,7 @@ p {
 }
 .headerImg{
   height: 100dvh;
+  float: right;
   margin: 0;
   position: relative;
   object-fit: cover;
