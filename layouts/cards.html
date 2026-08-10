@@ -1,48 +1,5 @@
 {{ define "title" }}
 {{ end }}
-{{ define "header" }}
-  <header>
-    <div class="menu">
-      <details class="hamburger">
-        <summary>
-          <span role="presentation"> ☰ </span>
-          <span class="sr-only">Menu</span>
-        </summary>
-        <ul>
-          {{ range ( slice  "contact" "cv" "blog" "portfolio" ) }}
-            {{ with $.Site.GetPage . }}
-              <li>
-                <a class="linkButton" href="{{ .RelPermalink }}">
-                  {{ .Title }}</a
-                >
-              </li>
-            {{ end }}
-          {{ end }}
-        </ul>
-      </details>
-    </div>
-
-    <div class="logo">
-      <a class="logoImg" href="{{ .Site.Home.Permalink }}">
-        {{ readFile "static/logo.svg" | safeHTML }}
-      </a>
-    </div>
-  </header>
-{{ end }}
-
-{{ define "navBar" }}
-  <div class="navBar main">
-    <ul>
-      {{ range .Resources.ByType "page" }}
-        <li>
-          <a class="linkButton" href="#{{ .Title | anchorize }}"
-            >[{{ .Title }}]</a
-          >
-        </li>
-      {{ end }}
-    </ul>
-  </div>
-{{ end }}
 
 {{ define "main" }}
   <main>
