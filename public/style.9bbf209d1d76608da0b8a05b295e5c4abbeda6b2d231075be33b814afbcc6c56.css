@@ -136,6 +136,7 @@ a:hover {
   color: white;
 }
   .hero {
+    grid-template-columns: 1fr 1fr;
     height: auto;
     width: 100%;
   }
@@ -149,7 +150,7 @@ a:hover {
   .headerImg {
     position: relative;
     max-width: 100dvw;
-    margin: 0;
+    margin: -100px 0 0 0;
     object-fit: cover;
     grid-column: 2;
     grid-row: 1;
@@ -162,8 +163,6 @@ a:hover {
     position: relative;
     z-index: 2;
     padding: 20px;
-    top: 0;
-    right: 0;
   }
 
   h1 {
@@ -181,12 +180,12 @@ a:hover {
   }
   h2 {
     font-weight: 1000;
-    font-size: 1.5em;
+    font-size: 2em;
   }
 
   p {
     line-height: 1em;
-    font-size: 1.5em;
+    font-size: 2em;
   }
 
 .logo svg {
@@ -199,29 +198,23 @@ a:hover {
 
 .blurb {
   grid-column: span 2;
-  position: absolute;
-  bottom: 20px;
-  left: 20px;
-  color: white;
   -webkit-text-stroke: 2px black;
+  color: white;
   paint-order: stroke fill;
   text-wrap: pretty;
   padding: 10px;
-  margin: 0;
+  margin: 0px 10px 0px 10px;
 }
 
 .cardBlock {
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(500px, 1fr));
     gap: 20px;
-    padding: 50px 50px 0px 20px;
+    padding: 50px 20px 0px 20px;
 }
 
 .cardBlock h4 {
   font-size: 2em;
-}
-.cardBlock li{
-  font-size: 1.5em;
 }
 
 @media (min-width: 1024px) {
@@ -229,12 +222,6 @@ a:hover {
   position: relative;
   height: 100dvh;
   width: 100dvw;
-}
-
-.menu {
-  position: fixed;   /* Use fixed instead of absolute for sticky menu */
-  top: 20px;
-  right: 20px;
 }
 
 h1 {
@@ -256,14 +243,58 @@ h2 {
   font-size: 4em;
 }
 
-p {
+p{
   font-size: 3em;
 }
-.cardBlock {
-      padding: 400px 50px 0px 20px;
+
+
+.logo svg {
+  height: 400px;
+  width: 400px;
 }
-.cardBlock li{
+.headerImg{
+  max-height: 100dvh;
+  float: right;
+  margin: -100px 0 0 0;
+  position: relative;
+  object-fit: cover;
+}
+
+.blurb {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+}
+
+  .logo {
+    height: 100px;
+  }
+}
+@media (min-width: 1024px) {
+.hero {
+  position: relative;
+  height: 100dvh;
+  width: 100dvw;
+}
+
+h1 {
+  font-family: "Josefin Sans", sans-serif;
+  font-size: 10em;
+  text-wrap: pretty;
+  position: absolute;
+  top: 20%;
+  left: 5%;
+  margin-top: 200px;
+}
+h2 {
+  font-size: 4em;
+}
+
+p{
   font-size: 3em;
+}
+.blurb {
+  margin: 40px, 200px;
 }
 
 .logo svg {

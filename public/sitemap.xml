@@ -5,6 +5,8 @@
   <url>
     <loc>http://localhost:1313/</loc>
   </url><url>
+    <loc>http://localhost:1313/cv/education/huddersfield/</loc>
+  </url><url>
     <loc>http://localhost:1313/blog/</loc>
   </url><url>
     <loc>http://localhost:1313/categories/</loc>
@@ -13,7 +15,11 @@
   </url><url>
     <loc>http://localhost:1313/cv/</loc>
   </url><url>
+    <loc>http://localhost:1313/cv/education/hundspann/</loc>
+  </url><url>
     <loc>http://localhost:1313/portfolio/</loc>
+  </url><url>
+    <loc>http://localhost:1313/cv/education/boras/</loc>
   </url><url>
     <loc>http://localhost:1313/tags/</loc>
   </url>

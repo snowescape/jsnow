@@ -25,8 +25,29 @@
   </div>
 </header>
 {{end}}
+
+{{ define "navBar"}}
+<div class="navBar main">
+        <ul>
+          {{range .Resources.ByType "page" }}
+                <li><a class="linkButton" href="#{{ .Title | anchorize }}">[{{ .Title }}]</a></li>
+            {{ end }}
+        </ul>
+</div>
+{{end}}
+
 {{define "main"}}
 <main>
-  <div class="content">{{ .Content }}</div>
+  <h1 class="headerTitle"> Josephine Snow CV </h1>
+<div class="cardBlock">
+  <div class="content card sr-only">
+        <h1> {{ .Title }} </h1>
+        {{ .Content }}</div>
+  {{range .Resources.ByType "page" }}
+  <div class="content card subpage" id="{{ .Title | anchorize }}">
+    <h2> {{ .Title }} </h2>
+    {{ .Content }}</div>
+  {{end}}
+</div>
 </main>
 {{end}}

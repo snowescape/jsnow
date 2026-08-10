@@ -3,6 +3,7 @@ title: "Service Desk Agent / Data Ductus (LKAB)"
 startDate: 2022-01-01T10:00:00Z
 endDate: 2023-01-01T18:00:00Z
 location: ""
+weight: 3
   
 ---
 <h4> 2022 - 2023 </h4>

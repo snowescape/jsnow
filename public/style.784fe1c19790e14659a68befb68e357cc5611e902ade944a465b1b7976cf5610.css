@@ -168,7 +168,7 @@ a:hover {
 
   h1 {
     font-family: "Josefin Sans", sans-serif;
-    font-size: 5em;
+    font-size: 3em;
     text-wrap: pretty;
     text-wrap: wrap;
     grid-column: 1;
@@ -214,14 +214,11 @@ a:hover {
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(500px, 1fr));
     gap: 20px;
-    padding: 50px 50px 0px 20px;
+    padding: 200px 40px 0px 20px;
 }
 
 .cardBlock h4 {
   font-size: 2em;
-}
-.cardBlock li{
-  font-size: 1.5em;
 }
 
 @media (min-width: 1024px) {
@@ -259,12 +256,7 @@ h2 {
 p {
   font-size: 3em;
 }
-.cardBlock {
-      padding: 400px 50px 0px 20px;
-}
-.cardBlock li{
-  font-size: 3em;
-}
+
 
 .logo svg {
   height: 400px;
