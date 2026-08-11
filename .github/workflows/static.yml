@@ -120,6 +120,11 @@ jobs:
             --minify \
             --cacheDir "${{ runner.temp }}/.cache/hugo"
 
+      - name: 404
+        run: |
+          echo "Rename 404 Page to 404.html so Github understands it..."
+          mv ./public/404/index.html ./public/404.html
+
       - name: Cache save
         uses: actions/cache/save@v6
         with:
