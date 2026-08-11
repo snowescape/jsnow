@@ -120,9 +120,6 @@ details.hamburger summary::-webkit-details-marker {
   -webkit-text-stroke: 2px black;
   paint-order: stroke fill;
 }
-.linkButton:hover {
-  color: white;
-}
 .menu li {
   list-style: none;
 }
@@ -192,20 +189,6 @@ p {
   height: 180px;
 }
 
-footer {
-  width: 100%;
-  display: flex;
-  gap: 20px;
-}
-footer h4 {
-  font-size: 3em;
-}
-
-footer li {
-  display: inline;
-  margin: 20px;
-}
-
 .blurb {
   grid-column: span 2;
   color: white;
@@ -238,7 +221,7 @@ footer li {
   paint-order: stroke fill;
 }
 .portfolioPage {
-  margin-top: 50px;
+  margin-top: 5px;
 }
 
 .headerTitle {

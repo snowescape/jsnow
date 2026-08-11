@@ -120,9 +120,6 @@ details.hamburger summary::-webkit-details-marker {
   -webkit-text-stroke: 2px black;
   paint-order: stroke fill;
 }
-.linkButton:hover {
-  color: white;
-}
 .menu li {
   list-style: none;
 }
@@ -190,20 +187,6 @@ p {
 
 .logo {
   height: 180px;
-}
-
-footer {
-  width: 100%;
-  display: flex;
-  gap: 20px;
-}
-footer h4 {
-  font-size: 3em;
-}
-
-footer li {
-  display: inline;
-  margin: 20px;
 }
 
 .blurb {

@@ -197,9 +197,6 @@ footer {
   display: flex;
   gap: 20px;
 }
-footer h4 {
-  font-size: 3em;
-}
 
 footer li {
   display: inline;

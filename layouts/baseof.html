@@ -44,6 +44,9 @@
           <span class="sr-only">Menu</span>
         </summary>
         <ul>
+          <li>
+            <a class="linkButton" href="{{ .Site.Home.Permalink }}"> Home </a>
+          </li>
           {{ range ( slice "contact" "cv" "blog" "portfolio" ) }}
             {{ with $.Site.GetPage . }}
               <li>
@@ -67,5 +70,20 @@
 
     {{ block "header" . }}{{ end }}
     {{ block "main" . }}{{ end }}
+    <footer>
+      <h4>©2026 Josephine Snow</h4>
+      <ul>
+        <li>
+          <a class="linkButton" href="{{ .Site.Home.Permalink }}"> Home </a>
+        </li>
+        {{ range ( slice "contact" "cv" "blog" "portfolio" ) }}
+          {{ with $.Site.GetPage . }}
+            <li>
+              <a class="linkButton" href="{{ .RelPermalink }}"> {{ .Title }}</a>
+            </li>
+          {{ end }}
+        {{ end }}
+      </ul>
+    </footer>
   </body>
 </html>

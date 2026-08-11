@@ -194,11 +194,6 @@ p {
 
 footer {
   width: 100%;
-  display: flex;
-  gap: 20px;
-}
-footer h4 {
-  font-size: 3em;
 }
 
 footer li {

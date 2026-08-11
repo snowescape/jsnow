@@ -192,20 +192,6 @@ p {
   height: 180px;
 }
 
-footer {
-  width: 100%;
-  display: flex;
-  gap: 20px;
-}
-footer h4 {
-  font-size: 3em;
-}
-
-footer li {
-  display: inline;
-  margin: 20px;
-}
-
 .blurb {
   grid-column: span 2;
   color: white;
