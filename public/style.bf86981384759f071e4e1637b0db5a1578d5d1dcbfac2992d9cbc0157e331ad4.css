@@ -303,22 +303,15 @@ p {
     font-family: "Josefin Sans", sans-serif;
     text-wrap: pretty;
     position: absolute;
-    top: 0;
+    top: 5%;
     left: 5%;
-    margin-top: 50px;
+    margin-top: 110px;
   }
 
-  .fourO .headerImg {
-    height: 150dvh;
-    margin: -200px 0 0 0;
+  .fourO headerImg {
+    height: 200dvh;
+    margin: -300px 0 0 0;
     position: relative;
     object-fit: cover;
-  }
-
-  .homeButton {
-    font-size: 3em;
-    line-height: 2em;
-    position: absolute;
-    bottom: 0;
   }
 }

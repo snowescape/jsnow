@@ -305,11 +305,11 @@ p {
     position: absolute;
     top: 0;
     left: 5%;
-    margin-top: 50px;
+    margin-top: 110px;
   }
 
   .fourO .headerImg {
-    height: 150dvh;
+    height: 200dvh;
     margin: -200px 0 0 0;
     position: relative;
     object-fit: cover;

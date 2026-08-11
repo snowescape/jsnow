@@ -233,15 +233,11 @@ p {
   top: 0;
   left: 0;
 }
-.fourO p {
+.fourO h1 {
   margin: 0;
   font-size: 3em;
 }
 
-.homeButton {
-  font-size: 3em;
-  line-height: 2em;
-}
 @media (min-width: 1024px) {
   .hero {
     position: relative;
@@ -286,8 +282,8 @@ p {
     width: 200px;
   }
   .headerImg {
-    height: 200dvh;
-    margin: -300px 0 0 0;
+    height: 100dvh;
+    margin: 0;
     position: relative;
     object-fit: cover;
   }
@@ -297,28 +293,8 @@ p {
     top: 0;
     left: 20%;
   }
-  .fourO p {
-    margin: 60px 50% 0 50px;
+  .fourO h1 {
+    margin: 0 100px 0 50px;
     font-size: 5em;
-    font-family: "Josefin Sans", sans-serif;
-    text-wrap: pretty;
-    position: absolute;
-    top: 0;
-    left: 5%;
-    margin-top: 50px;
-  }
-
-  .fourO .headerImg {
-    height: 150dvh;
-    margin: -200px 0 0 0;
-    position: relative;
-    object-fit: cover;
-  }
-
-  .homeButton {
-    font-size: 3em;
-    line-height: 2em;
-    position: absolute;
-    bottom: 0;
   }
 }

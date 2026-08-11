@@ -44,7 +44,7 @@
 				<link>http://localhost:1313/404/</link>
 				<pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
 				<guid>http://localhost:1313/404/</guid>
-				<description>&lt;h1 class=&#34;headerTitle&#34;&gt;404&lt;/h1&gt;&#xA;&lt;div class=&#34;fourO hero&#34;&gt;&#xA;  &lt;h1&gt;Sorry, I don&#39;t know what you were looking for, but its not here&lt;/h1&gt;&#xA;  &lt;img class=&#34;headerImg&#34; src=&#34;http://localhost:1313/josshrug.webp&#34; /&gt;&#xA;&lt;/div&gt;</description>
+				<description>&lt;span class=&#34;headerTitle&#34;&gt;&#xA;&lt;h1&gt;404&lt;/h1&gt; &lt;/span&gt;&#xA;&lt;div class=&#34;fourO hero&#34;&gt;&#xA;  &lt;p&gt;Sorry, I don&#39;t know what you were looking for, but its not here&lt;/p&gt;&#xA;  &lt;img class=&#34;headerImg&#34; src=&#34;http://localhost:1313/josshrug.webp&#34; /&gt;&#xA;  &lt;div class=&#34;homeButton&#34;&gt;&#xA;  &lt;a class=&#34;linkButton&#34; href=&#34;{{ .Site.Home.Permalink }}&#34;&gt;  Take me home! &lt;/a&gt;&#xA;  &lt;/div&gt;&#xA;&lt;/div&gt;</description>
 			</item>
 	</channel>
 </rss>
