@@ -300,7 +300,6 @@ p {
 }
 
 .wrap-image {
-  float: right;
   shape-outside: url("josProff.png");
   shape-margin: 15px;
 }

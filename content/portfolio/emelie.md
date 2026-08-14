@@ -1,5 +1,6 @@
 ---
 title: Emelie's Website
+weight: 3
 ---
 <div class="portfolioPage">
 <details>

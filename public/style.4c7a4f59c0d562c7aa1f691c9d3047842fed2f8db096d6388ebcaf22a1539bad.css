@@ -300,8 +300,7 @@ p {
 }
 
 .wrap-image {
-  float: right;
-  shape-outside: url("josProff.png");
+  shape-outside: url("your-image.png");
   shape-margin: 15px;
 }
 @media (min-width: 1024px) {
