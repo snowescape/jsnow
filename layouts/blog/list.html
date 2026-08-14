@@ -1,0 +1,24 @@
+{{ define "title" }}
+{{ end }}
+
+{{ define "main" }}
+  <main>
+    <h1 class="headerTitle">
+      Josephine <br />
+      Snow Blog
+    </h1>
+    <div class="cardBlock">
+      <div class="content card sr-only">
+        <h1>{{ .Title }}</h1>
+        {{ .Content }}
+      </div>
+      {{ range where .Site.RegularPages "Section" "blog" }}
+        <div class="content blog subpage" id="{{ .Title | anchorize }}">
+          <h2><a href="{{ .RelPermalink }}">{{ .Title }}</a></h2>
+          {{ .Summary }}
+          <a href="{{ .RelPermalink }}">read the full post...</a>
+        </div>
+      {{ end }}
+    </div>
+  </main>
+{{ end }}

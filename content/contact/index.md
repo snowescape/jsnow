@@ -2,13 +2,12 @@
 title: Contact
 ---
 <div class="contactPage">
-<span class="headerTitle">
-<h1>Get In Touch!</h1> </span>
+<h1>Get In Touch!</h1>
 
 <h2> There are lots of ways to get in touch, choose your favourite! </h2>
 <div class="contactCards">
 <a class="linkButton" href="mailto:contact@jsnow.se"> 
-   {{< icon "at" >}} E-mail</a>
+   {{< icon "at" >}} E-mail</a> 
 <a class="linkButton" href="tel:+46072037187"> 
     {{< icon "phone" >}}Call or Text</a>
 <a class="linkButton" href="https://signal.me/#eu/r147ZIH8Eu7uW7_khplG6ICXrrbMjg7Rt8Mj_RBz9xdGuYI-mmBOwbgKXD0EzPhF"> 
