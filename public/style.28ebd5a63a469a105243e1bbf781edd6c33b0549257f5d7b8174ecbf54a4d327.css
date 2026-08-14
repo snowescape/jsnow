@@ -204,7 +204,7 @@ footer {
   gap: 10px;
 }
 footer h4 {
-  font-size: 2em;
+  font-size: 3em;
 }
 
 footer li {
@@ -336,12 +336,10 @@ p {
 
   h2 {
     font-size: 4em;
-    margin-top: -120px;
   }
 
   p {
     font-size: 3em;
-    text-wrap: pretty;
   }
   .cardBlock {
     padding: 400px 50px 0px 20px;

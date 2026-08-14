@@ -71,10 +71,6 @@ body {
   font-size: 15px;
 }
 
-main {
-  width: 100dvw;
-}
-
 .menu {
   position: sticky;
   top: 0;
@@ -159,7 +155,6 @@ a:hover {
   padding: 20px;
   top: 0;
   right: 0;
-  width: 100dvw;
 }
 
 h1 {
@@ -173,7 +168,7 @@ h1 {
   justify-self: start;
   line-height: 0.8em;
   margin-left: 20px;
-  margin-top: 0px;
+  margin-top: 120px;
 }
 h2 {
   font-weight: 1000;
@@ -199,12 +194,12 @@ p {
 }
 
 footer {
-  width: 100dvw;
+  width: 100%;
   display: flex;
-  gap: 10px;
+  gap: 20px;
 }
 footer h4 {
-  font-size: 2em;
+  font-size: 3em;
 }
 
 footer li {
@@ -336,12 +331,10 @@ p {
 
   h2 {
     font-size: 4em;
-    margin-top: -120px;
   }
 
   p {
     font-size: 3em;
-    text-wrap: pretty;
   }
   .cardBlock {
     padding: 400px 50px 0px 20px;
