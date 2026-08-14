@@ -21,15 +21,17 @@
   --vt-c-text-dark-2: rgba(235, 235, 235, 0.64);
 }
 
-:root {
-  --color-background-soft: var(--vt-c-black-soft);
-  --color-background-mute: var(--vt-c-black-mute);
 
-  --color-border: var(--vt-c-divider-dark-2);
-  --color-border-hover: var(--vt-c-divider-dark-1);
+  :root {
+    --color-background-soft: var(--vt-c-black-soft);
+    --color-background-mute: var(--vt-c-black-mute);
 
-  --color-heading: var(--vt-c-text-dark-1);
-  --color-text: var(--vt-c-text-dark-2);
+    --color-border: var(--vt-c-divider-dark-2);
+    --color-border-hover: var(--vt-c-divider-dark-1);
+
+    --color-heading: var(--vt-c-text-dark-1);
+    --color-text: var(--vt-c-text-dark-2);
+  }
 }
 
 *,
@@ -44,7 +46,7 @@ body {
   display: grid;
   min-height: 100%;
   color: #5bbfea;
-  background: var(--color-background-soft);
+  background: var(--color-background);
   transition:
     color 0.5s,
     background-color 0.5s;
