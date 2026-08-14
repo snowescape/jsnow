@@ -219,22 +219,15 @@ footer li {
   clear: right;
 }
 
-/* Cards (CV) */
-
+/* Cards */
 .cardBlock {
   display: block;
   gap: 50px;
   padding: 100px 50px 0px 20px;
 }
 
-.cardBlock h2 {
-  line-height: 1em;
-  margin-top: 50px;
-}
-
 .cardBlock h4 {
   font-size: 2em;
-  margin-top: 0px;
 }
 .cardBlock li {
   font-size: 1.5em;

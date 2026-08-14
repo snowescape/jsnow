@@ -21,6 +21,7 @@
   --vt-c-text-dark-2: rgba(235, 235, 235, 0.64);
 }
 
+/* semantic color variables for this project */
 :root {
   --color-background: var(--vt-c-white);
   --color-background-soft: var(--vt-c-white-soft);
@@ -73,15 +74,11 @@ body {
 main {
   width: 100dvw;
 }
-/* Hamburger */
+
 .menu {
   position: sticky;
-  position: relative;
-  z-index: 2;
-  padding: 20px;
   top: 0;
   right: 0;
-  width: 100dvw;
 }
 details {
   position: absolute;
@@ -141,8 +138,6 @@ details.hamburger summary::-webkit-details-marker {
 a:hover {
   color: white;
 }
-
-/* All */
 .hero {
   width: 100%;
 }
@@ -156,6 +151,15 @@ a:hover {
   grid-row: 1;
   float: right;
   pointer-events: none;
+}
+
+.menu {
+  position: relative;
+  z-index: 2;
+  padding: 20px;
+  top: 0;
+  right: 0;
+  width: 100dvw;
 }
 
 h1 {
@@ -207,7 +211,7 @@ footer li {
   display: inline;
   margin: 20px;
 }
-/* Home */
+
 .blurb {
   grid-column: span 2;
   color: white;
@@ -219,28 +223,19 @@ footer li {
   clear: right;
 }
 
-/* Cards (CV) */
-
 .cardBlock {
-  display: block;
-  gap: 50px;
-  padding: 100px 50px 0px 20px;
-}
-
-.cardBlock h2 {
-  line-height: 1em;
-  margin-top: 50px;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(500px, 1fr));
+  gap: 20px;
+  padding: 50px 50px 0px 20px;
 }
 
 .cardBlock h4 {
   font-size: 2em;
-  margin-top: 0px;
 }
 .cardBlock li {
   font-size: 1.5em;
 }
-
-/* Portfolio */
 .caseStudyButton {
   color: #5bbfea;
   font-size: 3em;
@@ -257,16 +252,6 @@ footer li {
   top: 0;
   left: 0;
 }
-
-.portfolioPage details,
-p {
-  font-size: 1.5emem;
-}
-.portfolioPage img {
-  max-width: 100%;
-}
-
-/* 404 */
 .fourO p {
   margin: 0;
   font-size: 3em;
@@ -277,7 +262,6 @@ p {
   line-height: 2em;
 }
 
-/* Contact */
 .contactPage {
   display: grid;
   grid-template-columns: 1fr;
@@ -313,46 +297,29 @@ p {
 .portfolioPage details {
   position: static;
 }
-
-/* Cards Layout (CV) */
-.wrap-image-card {
-  width: 90dvw;
-  margin-top: -90px;
-  z-index: 2;
-  float: right;
+.portfolioPage details,
+p {
+  font-size: 1.5emem;
 }
-
-.headerTitle {
-  margin-top: 150px;
-  z-index: -1;
-}
-.card {
-  width: 95dvw;
-  text-wrap: pretty;
+.portfolioPage img {
+  max-width: 100%;
 }
 
 @media (min-width: 1024px) {
-  /* Home */
   .hero {
     position: relative;
     height: 550px;
   }
-  .blurb {
-    clear: none;
-  }
 
-  .homeWrapImage {
-    shape-outside: url("josthinkingnew.png");
-    shape-margin: 15px;
-  }
-  /* Hamburger */
   .menu {
     position: sticky;
     top: 20px;
     right: 20px;
   }
+  .blurb {
+    clear: none;
+  }
 
-  /* All */
   h1 {
     font-family: "Josefin Sans", sans-serif;
     font-size: 8em;
@@ -372,6 +339,13 @@ p {
     font-size: 3em;
     text-wrap: pretty;
   }
+  .cardBlock {
+    padding: 400px 50px 0px 20px;
+  }
+  .cardBlock li {
+    font-size: 3em;
+  }
+
   .logo svg {
     height: 200px;
     width: 200px;
@@ -383,28 +357,12 @@ p {
     object-fit: cover;
   }
 
-  /* Cards (CV) */
-  .wrap-image-card {
-    shape-outside: url("josProff2.png");
-    shape-margin: 15px;
-    float: right;
-    width: 50dvw;
-  }
-  .cardBlock {
-    padding: 200px 50px 0px 100px;
-  }
-
-  .cardBlock li {
-    font-size: 3em;
-  }
   .headerTitle {
     position: absolute;
     top: 0;
     left: 20%;
     width: 80%;
   }
-
-  /* 404 */
   .fourO p {
     margin: 60px 50% 0 50px;
     font-size: 5em;
@@ -429,18 +387,27 @@ p {
     position: absolute;
     bottom: 0;
   }
-  /* Contact */
+
   .contactCards {
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(400px, 1fr));
   }
-
-  /* Portfolio */
   .portfolioPage img {
     max-width: 45%;
   }
+
+  .homeWrapImage {
+    shape-outside: url("josthinkingnew.png");
+    shape-margin: 15px;
+  }
+
   .wrap-image {
     shape-outside: url("josProff.png");
+    shape-margin: 15px;
+  }
+
+  .wrap-image-cv {
+    shape-outside: url("josProff2.png");
     shape-margin: 15px;
   }
 }

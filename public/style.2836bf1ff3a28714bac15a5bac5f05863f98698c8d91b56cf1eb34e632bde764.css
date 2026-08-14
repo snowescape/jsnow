@@ -219,22 +219,16 @@ footer li {
   clear: right;
 }
 
-/* Cards (CV) */
-
+/* Cards */
 .cardBlock {
-  display: block;
-  gap: 50px;
-  padding: 100px 50px 0px 20px;
-}
-
-.cardBlock h2 {
-  line-height: 1em;
-  margin-top: 50px;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(500px, 1fr));
+  gap: 20px;
+  padding: 50px 50px 0px 20px;
 }
 
 .cardBlock h4 {
   font-size: 2em;
-  margin-top: 0px;
 }
 .cardBlock li {
   font-size: 1.5em;
@@ -393,7 +387,6 @@ p {
   .cardBlock {
     padding: 200px 50px 0px 100px;
   }
-
   .cardBlock li {
     font-size: 3em;
   }
@@ -430,9 +423,8 @@ p {
     bottom: 0;
   }
   /* Contact */
-  .contactCards {
-    display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(400px, 1fr));
+  .cardBlock {
+    padding: 100px 50px 0px 20px;
   }
 
   /* Portfolio */
