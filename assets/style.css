@@ -93,7 +93,10 @@ details {
 
 details.hamburger summary {
   list-style: none;
-  color: #5bbfea;
+  background: linear-gradient(90deg, #5bbfea, #336d86);
+  -webkit-background-clip: text;
+  color: transparent;
+  -webkit-text-fill-color: transparent;
   font-size: 10em;
   text-align: right;
   line-height: 0.8em;
@@ -107,8 +110,10 @@ details.hamburger summary::-webkit-details-marker {
   color: #5bbfea;
   font-size: 3em;
   text-decoration: none;
-  -webkit-text-stroke: 2px black;
-  paint-order: stroke fill;
+  background: linear-gradient(90deg, #5bbfea, #336d86);
+  -webkit-background-clip: text;
+  color: transparent;
+  -webkit-text-fill-color: transparent;
 }
 .linkButton:hover {
   color: white;
@@ -153,10 +158,18 @@ h1 {
   line-height: 0.8em;
   margin-left: 20px;
   margin-top: 0px;
+  background: linear-gradient(90deg, #5bbfea, #336d86);
+  -webkit-background-clip: text;
+  color: transparent;
+  -webkit-text-fill-color: transparent;
 }
 h2 {
   font-weight: 1000;
   font-size: 1.5em;
+  background: linear-gradient(90deg, #5bbfea, #336d86);
+  -webkit-background-clip: text;
+  color: transparent;
+  -webkit-text-fill-color: transparent;
 }
 
 p {
@@ -185,6 +198,10 @@ footer {
 }
 footer h4 {
   font-size: 2em;
+  background: linear-gradient(90deg, #5bbfea, #336d86);
+  -webkit-background-clip: text;
+  color: transparent;
+  -webkit-text-fill-color: transparent;
 }
 
 footer li {
@@ -195,8 +212,6 @@ footer li {
 .blurb {
   grid-column: span 2;
   color: white;
-  -webkit-text-stroke: 2px black;
-  paint-order: stroke fill;
   text-wrap: pretty;
   padding: 20px;
   max-width: 100%;
@@ -229,8 +244,6 @@ footer li {
   color: #5bbfea;
   font-size: 3em;
   text-decoration: none;
-  -webkit-text-stroke: 2px black;
-  paint-order: stroke fill;
 }
 .portfolioPage {
   margin-top: 50px;
