@@ -141,7 +141,7 @@ details.hamburger summary::-webkit-details-marker {
   padding: 10px 5px 5px 5px;
   margin: 0 100px 30px 0;
 }
-.linkButton:hover,
+.linkButton:hover
 .emaillinkButton:hover {
   background: linear-gradient(90deg, #5bbfea, white, white);
   -webkit-background-clip: text;

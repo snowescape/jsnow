@@ -59,7 +59,7 @@ h5::selection {
 body {
   display: grid;
   min-height: 100%;
-  color: black;
+  color: #5bbfea;
   background: var(--color-background-soft);
   background-image: url(/background.png);
   transition:
@@ -124,25 +124,15 @@ details.hamburger summary::-webkit-details-marker {
 }
 
 .linkButton {
-  color: black;
+  color: #000000;
   font-size: 3em;
   text-decoration: none;
-
+  background: linear-gradient(90deg, #000000, #336d86);
+  -webkit-background-clip: text;
+  color: transparent;
+  -webkit-text-fill-color: transparent;
 }
-.emaillinkButton {
-  color: white;
-  font-size: 3em;
-  text-decoration: none;
-  background-color: rgba(255, 255, 255, 0.3);
-  backdrop-filter: blur(10px);
-  -webkit-backdrop-filter: blur(10px); /* Required for Safari < 17 */
-  box-shadow: inset 0 1px 0 #ffffff;
-  border-radius: 20px;
-  padding: 10px 5px 5px 5px;
-  margin: 0 100px 30px 0;
-}
-.linkButton:hover,
-.emaillinkButton:hover {
+.linkButton:hover {
   background: linear-gradient(90deg, #5bbfea, white, white);
   -webkit-background-clip: text;
   color: transparent;
@@ -153,10 +143,9 @@ details.hamburger summary::-webkit-details-marker {
 }
 
 .menu ul {
-    background-color: rgba(255, 255, 255, 0.3);
+    background-color: rgba(255, 255, 255, 0.4);
     backdrop-filter: blur(10px);
     -webkit-backdrop-filter: blur(10px); /* Required for Safari < 17 */
-    box-shadow: inset 0 1px 0 #ffffff;
     border-radius: 20px;
   padding: 1em;
 }
@@ -200,8 +189,10 @@ h1 {
 h2 {
   font-weight: 1000;
   font-size: 1.5em;
-color: white;
-background-color: transparent;
+  background: linear-gradient(90deg, #5bbfea, #336d86);
+  -webkit-background-clip: text;
+  color: transparent;
+  -webkit-text-fill-color: transparent;
 }
 
 p {
@@ -227,14 +218,13 @@ footer {
   display: flex;
   gap: 10px;
   padding: 20px;
-  background-color: rgba(255, 255, 255, 0.3);
-  backdrop-filter: blur(10px);
-  -webkit-backdrop-filter: blur(10px); /* Required for Safari < 17 */
 }
 footer h4 {
   font-size: 2em;
-  color: black;
-  background-color: transparent;
+  background: linear-gradient(90deg, #5bbfea, #336d86);
+  -webkit-background-clip: text;
+  color: transparent;
+  -webkit-text-fill-color: transparent;
 }
 
 footer li {
@@ -287,7 +277,7 @@ footer li {
   display: block;
   gap: 50px;
   margin: 100px 50px 0px 20px;
-  background-color: rgba(255, 255, 255, 0.3);
+  background-color: rgba(255, 255, 255, 0.2);
   backdrop-filter: blur(10px);
   -webkit-backdrop-filter: blur(10px); /* Required for Safari < 17 */
 }
@@ -403,7 +393,7 @@ p {
 /*Blog */
 
 .blogPost h1 {
-  color: black;
+  color: white;
   text-decoration: none;
 }
 .blog a {

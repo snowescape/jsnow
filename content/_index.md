@@ -13,5 +13,5 @@
 <p>I am not afraid of a challenge and I do not back down when faced with a tough issue. This can sometimes mean I am hard-headed but that also means I get the job done. I am passionate and excited about coding and I code in my spare time, just for fun. See my portfolio page for websites I have built just for the joy of it! I am a board member of the local Hackerspace and I have made a website for them and several promotional materials. As I am young in my career I am at the perfect place to be moulded into your perfect UX and UI designer.</p>
 </div>
 <div class="cta">
-  <a class="linkButton" href="mailto:contact@jsnow.se"> 
+  <a class="emaillinkButton" href="mailto:contact@jsnow.se"> 
      {{< icon "at" >}} E-mail Me!</a>

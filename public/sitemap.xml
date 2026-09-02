@@ -4,13 +4,16 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>http://localhost:1313/</loc>
-    <lastmod>2026-08-14T00:00:00+02:00</lastmod>
+    <lastmod>2026-09-01T00:00:00+02:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/blog/2026/</loc>
-    <lastmod>2026-08-14T00:00:00+02:00</lastmod>
+    <lastmod>2026-09-01T00:00:00+02:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/blog/</loc>
-    <lastmod>2026-08-14T00:00:00+02:00</lastmod>
+    <lastmod>2026-09-01T00:00:00+02:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/blog/2026/260901-servers-ahoy/</loc>
+    <lastmod>2026-09-01T00:00:00+02:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/blog/2026/260814-getting-into-coding-again-is-great/</loc>
     <lastmod>2026-08-14T00:00:00+02:00</lastmod>
