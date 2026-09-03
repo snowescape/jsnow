@@ -314,10 +314,7 @@ footer li {
   backdrop-filter: blur(10px);
   -webkit-backdrop-filter: blur(10px); /* Required for Safari < 17 */
 }
-.cardBlock img {
-  max-width: 90%;
 
-}
 .cardBlock h2 {
   line-height: 1em;
   margin: 50px 10px 0 10px;
@@ -325,24 +322,11 @@ footer li {
 }
 
 .cardBlock h4 {
-  font-size: 1em;
-  margin: 10px;
-  background-color: transparent;
-}
-
-.cardBlock p {
-  font-size: 1em;
-  margin: 0 10px;
-  background-color: transparent;
-  max-width: 90%;
+  font-size: 2em;
+  margin: 0;
 }
 .cardBlock li {
   font-size: 1em;
-
-}
-.cardBlock ul {
-    padding-bottom: 20px;
-    margin-bottom: 20px;
 }
 /* Portfolio */
 .caseStudyButton {
