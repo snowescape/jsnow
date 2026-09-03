@@ -427,36 +427,14 @@ p {
 .blogPost h1 {
   color: white;
   text-decoration: none;
-
-}
-
-.blogPost h2 {
-  color: white;
-  margin: 40px 10px 0 10px;
-  text-wrap: pretty;
-  line-height: 1.5em;
-}
-
-.blogPost p {
-  color: white;
-  margin: 0 10px;
-  text-wrap: pretty;
 }
 .blog a {
-  color: white;
+  color: #5bbfea;
   text-decoration: none;
   font-size: 1.5em;
 }
-
-.readMore {
-float: right;
-}
-
 .blog a:hover {
-    background: linear-gradient(90deg, #5bbfea, white, white);
-    -webkit-background-clip: text;
-    color: transparent;
-    -webkit-text-fill-color: transparent;
+  color: white;
 }
 
 .blogImg {
@@ -464,12 +442,11 @@ float: right;
 }
 
 .blogPost {
-    display: block;
+    display: flex;
+    flex-direction: column;
     background-color: rgba(255, 255, 255, 0.3);
     backdrop-filter: blur(10px);
     -webkit-backdrop-filter: blur(10px); /* Required for Safari < 17 */
-    margin: 0 20px;
-    position: relative;
 }
 
 @media (min-width: 1024px) {
@@ -600,9 +577,10 @@ float: right;
     justify-self: centre;
   }
   .blogPost {
-    margin: 50px 100px 50px 100px;
+    margin: 500px 100px 50px 100px;
   }
   .blogPost h1 {
-    margin: 50px 100px;
+    top: 20%;
+    margin: 100px 100px;
   }
 }

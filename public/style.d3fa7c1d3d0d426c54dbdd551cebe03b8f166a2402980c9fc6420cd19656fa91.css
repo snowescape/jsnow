@@ -453,7 +453,7 @@ float: right;
 }
 
 .blog a:hover {
-    background: linear-gradient(90deg, #5bbfea, white, white);
+    background: linear-gradient(90deg, #5bbfea, white, 5bbfea, white);
     -webkit-background-clip: text;
     color: transparent;
     -webkit-text-fill-color: transparent;

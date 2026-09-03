@@ -432,9 +432,8 @@ p {
 
 .blogPost h2 {
   color: white;
-  margin: 40px 10px 0 10px;
+  margin: 30px 10px 0 10px;
   text-wrap: pretty;
-  line-height: 1.5em;
 }
 
 .blogPost p {
@@ -443,7 +442,7 @@ p {
   text-wrap: pretty;
 }
 .blog a {
-  color: white;
+  color: #5bbfea;
   text-decoration: none;
   font-size: 1.5em;
 }
@@ -453,10 +452,7 @@ float: right;
 }
 
 .blog a:hover {
-    background: linear-gradient(90deg, #5bbfea, white, white);
-    -webkit-background-clip: text;
-    color: transparent;
-    -webkit-text-fill-color: transparent;
+  color: white;
 }
 
 .blogImg {

@@ -4,11 +4,10 @@
 {{ define "main" }}
   <main>
     <h1 class="headerTitle">
-      Josephine <br />
-      Snow Blog
+        Blog
     </h1>
-    <div class="cardBlock">
-      <div class="content card sr-only">
+    <div class="blogPost">
+      <div class="content card sr-only blogPost">
         <h1>{{ .Title }}</h1>
         {{ .Content }}
       </div>
@@ -16,7 +15,7 @@
         <div class="content blog subpage" id="{{ .Title | anchorize }}">
           <h2><a href="{{ .RelPermalink }}">{{ .Title }}</a></h2>
           {{ .Summary }}
-          <a href="{{ .RelPermalink }}">read the full post...</a>
+          <a class="readMore" href="{{ .RelPermalink }}">read the full post...</a>
         </div>
       {{ end }}
     </div>
