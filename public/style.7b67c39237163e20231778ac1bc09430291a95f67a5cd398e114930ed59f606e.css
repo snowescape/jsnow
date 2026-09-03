@@ -70,10 +70,9 @@ body {
 
 .parallax {
   /* The image used */
+  background-color: #222222;
   background-image: url("/background.svg");
-  background-color: (34, 34, 34, 0.8);
-  background-blend-mode: multiply; /* Or 'overlay', 'darken', etc. */
-  background-size: cover;
+  opacity: 50%;
 
   /* Set a specific height */
   min-height: 100%;

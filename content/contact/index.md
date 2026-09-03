@@ -22,7 +22,7 @@ title: Contact
    {{< icon "instagram" >}} Instagram</a>
 <a class="linkButton" href="xmpp:snowescape@hackrnspace.se"> 
     {{< icon "chat" >}} XMPP </a>
- <details>
+ <details class="writeDetailButton">
     <summary> 
      <span class="linkButton"> {{< icon "envelope" >}} Write!  </span>
     </summary>

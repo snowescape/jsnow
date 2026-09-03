@@ -37,6 +37,7 @@
     <link rel="icon" href="/favicon.png" type="image/png" />
   </head>
   <body>
+      <div class="parallax">
     <div class="menu">
       <details class="hamburger">
         <summary>
@@ -54,11 +55,12 @@
                   {{ .Title }}</a
                 >
               </li>
-              <li>
-                  <a class="linkButton" href="https://www.etsy.com/shop/SnowEscape">Etsy</a>
-              </li>
+
             {{ end }}
           {{ end }}
+          <li>
+              <a class="linkButton" href="https://www.etsy.com/shop/SnowEscape">Etsy</a>
+          </li>
         </ul>
       </details>
     </div>
@@ -84,12 +86,14 @@
             <li>
               <a class="linkButton" href="{{ .RelPermalink }}"> {{ .Title }}</a>
             </li>
-            <li>
-                <a class="linkButton" href="https://www.etsy.com/shop/SnowEscape">Etsy</a>
-            </li>
+
           {{ end }}
         {{ end }}
+        <li>
+            <a class="linkButton" href="https://www.etsy.com/shop/SnowEscape">Etsy</a>
+        </li>
       </ul>
     </footer>
+      </div>
   </body>
 </html>

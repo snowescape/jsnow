@@ -59,7 +59,7 @@ h5::selection {
 body {
   display: grid;
   min-height: 100%;
-  color: white;
+  color: black;
   transition:
     color 0.5s,
     background-color 0.5s;
@@ -70,10 +70,8 @@ body {
 
 .parallax {
   /* The image used */
+  background-color: #222222;
   background-image: url("/background.svg");
-  background-color: (34, 34, 34, 0.8);
-  background-blend-mode: multiply; /* Or 'overlay', 'darken', etc. */
-  background-size: cover;
 
   /* Set a specific height */
   min-height: 100%;
@@ -137,11 +135,9 @@ details.hamburger summary {
 details.hamburger summary::-webkit-details-marker {
   display: none;
 }
-
 details.writeDetailButton summary::-webkit-details-marker {
   display: none;
 }
-
 .linkButton {
   color: white;
   font-size: 3em;
@@ -252,7 +248,7 @@ footer {
 }
 footer h4 {
   font-size: 2em;
-  color: white;
+  color: black;
   background-color: transparent;
 }
 
@@ -422,7 +418,7 @@ p {
 /*Blog */
 
 .blogPost h1 {
-  color: white;
+  color: black;
   text-decoration: none;
 }
 .blog a {
