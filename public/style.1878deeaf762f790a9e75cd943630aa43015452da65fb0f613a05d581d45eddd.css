@@ -326,6 +326,9 @@ footer li {
 .cardBlock li {
   font-size: 1em;
 }
+.cardBlock ul {
+  font-size: 1em;
+}
 /* Portfolio */
 .caseStudyButton {
   color: #5bbfea;
